@@ -2,14 +2,14 @@ metaDataFormat: yaml
 baseurl: https://travel.purrple.cat
 title: purrple travel blog
 theme: well-traveled
-languageCode: "fr-FR"
+languageCode: "en-us"
 author: "purrple"
 copyright: ''
 params:
   logo: img/compass-rose.svg
 favicon:
   image: favicon.png
-type: image/png
+  type: image/png
 description: 'Travel blog.'
 error404:
   title: Lost a page?
