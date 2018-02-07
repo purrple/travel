@@ -1,0 +1,34 @@
+{{ partial "header.html" . }}
+
+<main>
+    {{ range (where .Site.Pages "Kind" "section") }}
+    <section class="section" id="section-{{ .Title | plainify | urlize }}"{{ with .Params.image }} style="background-image: url({{ . }});"{{ end }}>
+        <div class="section__content">
+            <h2 class="section__name"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+
+            <div class="section__entries">
+                {{ if eq (len .Data.Pages) 0 }}
+                <div class="section__entry text"><p>{{ with .Params.teaser }}{{ . | safeHTML }}{{ else }}Coming soon...{{ end }}</p></div>
+                {{ end }}
+                {{ range first 3 .Data.Pages }}
+                <article class="section__entry entry">
+                    <h3 class="entry__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <div class="entry__placement"><time datetime="{{ .Date.Format "2006-01-02T15:04Z07:00" }}">{{ .Date.Format "January 2, 2006 15:04" }} {{ if isset .Params "timezone" }}{{ .Params.timezone }}{{ else }}{{ .Date.Format "MST" }}{{ end }}</time>{{ with .Params.location }} in {{ . }}{{ end }}</div>
+
+                    <div class="entry__summary text">
+                        {{ .Summary | plainify | safeHTML }}
+                    </div>
+                </article>
+                {{ end }}
+                {{ if gt (len .Data.Pages) 3 }}
+                <div class="section__link">
+                    <a href="{{ .Permalink }}">See all {{ len .Data.Pages }} stories from {{ .Title }}</a>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    {{ end }}
+</main>
+
+{{ partial "footer.html" . }}

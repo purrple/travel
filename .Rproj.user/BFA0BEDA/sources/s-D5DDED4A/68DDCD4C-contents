@@ -1,0 +1,11 @@
+# Base URL of the site
+baseurl: https://travel.purrple.cat
+# Title of the site
+title: purrple travel blog
+# Language code for the site
+languageCode: "fr-FR"
+# Copyright statement used in the footer
+copyright: ''
+params:
+  # Description used in the main page's META tag
+  description: 'Travel blog'
