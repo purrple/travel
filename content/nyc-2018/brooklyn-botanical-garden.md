@@ -12,4 +12,3 @@ image: img/nyc-2018/brooklyn-botanical-garden/brooklyn-botanical-garden.jpg
 ---
 
 Bla bla bla c'est joli
-
