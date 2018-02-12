@@ -11,5 +11,19 @@
     <p class="footer__copyright text">{{ .Site.Copyright | safeHTML }}</p>
 </footer>
 
+{{ if .Params.gallery }}
+            
+            <script src="/lib/gallery/js/blueimp-gallery.min.js"></script>
+    
+            <script>
+            blueimp.Gallery(
+            document.getElementById('links').getElementsByTagName('a'),{
+                container: '#blueimp-gallery-carousel',
+                carousel: true
+            });
+            </script>    
+            
+{{ end }}
+            
 </body>
 </html>
