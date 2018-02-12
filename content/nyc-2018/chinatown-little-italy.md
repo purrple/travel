@@ -8,4 +8,5 @@ tags:
   - china
   - italy
 image: img/nyc-2018/chinatown-little-italy/header.jpg
+gallery: img/nyc-2018/chinatown-little-italy
 ---

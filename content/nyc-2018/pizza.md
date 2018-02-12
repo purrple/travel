@@ -7,6 +7,7 @@ tags:
   - pizza
   - city
 image: img/nyc-2018/pizza/header.jpg
+gallery: img/nyc-2018/pizza
 ---
 
 Les pizzas sont sûrement la nourriture préférée des américains car il y a des pizzerias à tous les coins de rue. Elles sont très variéews et très volumineuses. Elles sont incontournables à New-York.

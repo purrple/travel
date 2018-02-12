@@ -8,6 +8,7 @@ tags:
   - skyline
   - city
 image: img/nyc-2018/brooklyn-heights-promenade/header.jpg
+gallery: img/nyc-2018/brooklyn-heights-promenade
 ---
   
   De la promenade de Brooklyn, on voit bien la skyline du sud de Manhattan (silhouette des bâtiments).
