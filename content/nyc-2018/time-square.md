@@ -10,17 +10,20 @@ tags:
 image: img/nyc-2018/time-square/header.jpg
 ---
 
+La petite ballade du soir c'est Time Square. Quand on y est la nuit, c'est comme si c'était la journée tellement c'est lumineux. Il est difficile de prendre des photos avec cette lumière, papa y a passé un sacré moment pour faire une photo. Il y des magasins qui ne sont pas très intéressants, tout ceux relatifs à la mode, mais il y a aussi de supers magasins : 
 
-  De la promenade de Brooklyn, on voit bien la skyline du sud de Manhattan (silhouette des bâtiments).
+- M&M's
+C'est vraiment difficile de ne pas tout manger tellement ça sent bon le chocolat. On peut y personnaliser ses bonbons ou ses contenants. Il y a plein de jolies couleurs. 
+- Toys"R"Us
+Il y a plein de statues en LEGO : des minions, Rey et BB-8 de Star Wars, et des personnages du film LEGO. Il y une salle de jeux où l'on peut tester toutes sortes de jeux comme les pistolets NERF et, le meilleur dans tout ça, on nous apporte à manger et à boire GRATUITEMENT !
+- Line Friends
+C'est Nounoursomania! Il y a des peluches par-ci et par-là, si vous êtes un amateur ou un adoreur (comme moi), il est très difficile de ne pas tout acheter. Surtout qu'elles sont adorables ces petites peluches! Elles sont sous plusieurs formes, par exemple en porte-clés, en sacoche, en coque de téléphone et en housse de tablette et ordinateur et plus encore! Dans le magasin il y a des statues du doudou le plus connu sous d'autres styles, comme en rappeur ou en DJ. Il y a des nounours mais aussi des lapins, des chevaux, des canards, des "trucs" non identifiables noirs et blanc, et d'autres encore.
+- Disney
+Quand on rentre, on est direct dans l'ambiance avec la musique de fond tirée des films Disney. Et là encore il y a plein de peluches de toutes les tailles, de tous les dessins animés, qui donnent l'envie de sauter dedans ! Il y a plein de jouets et d'accessoires de Disney allant du plus petit au plus grand.
 
-![img/nyc-2018/brooklyn-botanical-garden/skyline.jpg](skyline)
+Il y a aussi plusieurs endroits où manger, on va souvent au Mc Donald. 
 
-C'est aussi beau de jour que de nuit, car, la nuit les lumières brillent autant que les taxis américains sont jaunes.
+Il y a un nombre incalculable de taxis qui passent à la minute. Plein de gens qui essaient tant bien que mal de faire des photos ou des timelaps.
 
-![img/nyc-2018/brooklyn-botanical-garden/skyline-nuit.jpg](skyline nuit)
-
-La freedom tower est le building le plus grand et le plus récent de la skyline.
-
-![img/nyc-2018/brooklyn-botanical-garden/freedom-tower.jpg](freedom tower)
 
 

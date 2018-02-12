@@ -9,6 +9,7 @@ tags:
   - flowers
   - squirrels
 image: img/nyc-2018/brooklyn-botanical-garden/header.jpg
+gallery: img/nyc-2018/brooklyn-botanical-garden
 ---
 
 Le jardin de Brooklin est très intéressant, l'été, ou mieux le printemps. L'hiver, ben c'est l'hiver ! Il y a de la glace sur les fontaines, il fait froid, et il risque à tout moment de neiger ou de pleuvoir. Et les arbres sont tout nus, sans fleur ni feuille. Il est très amusant de jouer avec la glace et d'en mettre dans le tee-shirt de son papa, qui se transforme automatiquement en écureuil et grimpe aux arbres. 
