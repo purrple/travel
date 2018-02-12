@@ -2,13 +2,12 @@
 date: 2018-02-06
 timezone: EST
 location: New York, United States
-title: Brooklyn Botanical Garden
+title: Chinatown & Little Italy
 tags:
-  - park
-  - trees
-  - flowers
-  - squirrels
-image: img/nyc-2018/brooklyn-botanical-garden/brooklyn-botanical-garden.jpg
+  - city
+  - china
+  - italy
+image: img/nyc-2018/chinatown-little-italy/header.jpg
 ---
 
 Le jardin de Brooklin est très intéressant, l'été, ou mieux le printemps. L'hiver, ben c'est l'hiver ! Il n'y a que le conservatoire qui est bien, car toute la flore est conservée dans des pièces tempérées pour qu'elles ne fanent pas.

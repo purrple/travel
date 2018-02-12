@@ -1,13 +1,12 @@
 ---
-date: 2018-02-06
+date: 2018-02-07
 timezone: EST
 location: New York, United States
-title: Brooklyn Heights Promenade
+title: Central Park
 tags:
-  - promenade
-  - skyline
+  - park
   - city
-image: img/nyc-2018/brooklyn-heights-promenade/brooklyn-heights-promenade.jpg
+image: img/nyc-2018/central-park/header.jpg
 ---
   
   De la promenade de Brooklyn, on voit bien la skyline du sud de Manhattan (silhouette des bâtiments).

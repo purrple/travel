@@ -2,12 +2,12 @@
 date: 2018-02-06
 timezone: EST
 location: New York, United States
-title: Brooklyn Heights Promenade
+title: Time square
 tags:
-  - promenade
-  - skyline
+  - buildings
   - city
-image: img/nyc-2018/brooklyn-heights-promenade/brooklyn-heights-promenade.jpg
+  - lights
+image: img/nyc-2018/time-square/header.jpg
 ---
 
 

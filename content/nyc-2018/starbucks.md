@@ -8,7 +8,7 @@ tags:
   - trees
   - flowers
   - squirrels
-image: img/nyc-2018/brooklyn-botanical-garden/brooklyn-botanical-garden.jpg
+image: img/nyc-2018/brooklyn-botanical-garden/header.jpg
 ---
 
 Le jardin de Brooklin est très intéressant, l'été, ou mieux le printemps. L'hiver, ben c'est l'hiver ! Il n'y a que le conservatoire qui est bien, car toute la flore est conservée dans des pièces tempérées pour qu'elles ne fanent pas.
