@@ -8,7 +8,3 @@ tags:
 image: img/nyc-2018/street-art/header.jpg
 gallery: img/nyc-2018/street-art
 ---
-
-
-
-
