@@ -23,7 +23,7 @@ redim_all <- function(){
   vect_modif <- map_lgl(files, process_img)
   n_modif <- sum(vect_modif)
   n_total <- length(vect_modif)
-  
+  cat("\n")
   message(glue("J'ai modifié {n_modif} fichiers sur {n_total}"))
   
 }
@@ -32,10 +32,12 @@ redim_img <-function(file, w){
   img <- image_read(file)
   width <- image_info(img)$width
    if(width > w){
+     cat( glue("\rredim {file}                                                ") )
      image_scale(img, w) %>%
        image_write(path = file, format = "jpg")
      TRUE
    } else {
+     cat( glue("\r{file} deja redim                                            ") )
      FALSE
    }
  }
@@ -50,7 +52,7 @@ process_img <- function(file){
     }
 }
 
-#gif alix qui saute
+re#gif alix qui saute
 img1 <- image_read("/Users/romain/git/travel/static/img/nyc-2018/times-square/IMG_3480.jpg")
 img2 <- image_read("/Users/romain/git/travel/static/img/nyc-2018/times-square/IMG_3481.jpg")
 img3 <- image_read("/Users/romain/git/travel/static/img/nyc-2018/times-square/IMG_3482.jpg")
