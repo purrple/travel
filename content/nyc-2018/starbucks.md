@@ -8,5 +8,6 @@ tags:
   - trees
   - flowers
   - squirrels
-image: img/nyc-2018/brooklyn-botanical-garden/header.jpg
+image: img/nyc-2018/starbucks/starbucks.jpg
+gallery: img/nyc-2018/starbucks
 ---

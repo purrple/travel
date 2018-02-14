@@ -8,6 +8,7 @@ tags:
   - skyline
   - city
 image: img/nyc-2018/empire-state-building/header.jpg
+gallery: img/nyc-2018/empire-state-building
 ---
 
 

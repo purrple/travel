@@ -7,6 +7,7 @@ tags:
   - park
   - city
 image: img/nyc-2018/central-park/header.jpg
+gallery: img/nyc-2018/central-park
 ---
   
 On voit souvent des photos de Central Park avec un soleil haut dans le ciel, 
