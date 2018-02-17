@@ -1,3 +1,3 @@
-# Blog sur le voyage à New York
+# Blog de voyage
 
 https://travel.purrple.cat
