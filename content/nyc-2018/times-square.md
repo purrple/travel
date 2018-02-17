@@ -11,7 +11,7 @@ image: img/nyc-2018/times-square/header.jpg
 gallery: img/nyc-2018/times-square
 ---
 
-La petite ballade du soir c'est Times Square. Quand on y est la nuit, c'est comme si c'était la journée tellement c'est lumineux. Il est difficile de prendre des photos avec cette lumière, papa y a passé un sacré moment pour faire une photo. Il y des magasins qui ne sont pas très intéressants, tout ceux relatifs à la mode, mais il y a aussi de supers magasins : 
+La petite ballade du soir c'est Times Square. Quand on y est la nuit, c'est comme si c'était la journée tellement c'est lumineux. Il est difficile de prendre des photos avec cette lumière, papa y a passé un sacré moment pour faire une photo. Il y des magasins qui ne sont pas très intéressants, tous ceux relatifs à la mode, mais il y a aussi de supers magasins : 
 
 - M&M's
 C'est vraiment difficile de ne pas tout manger tellement ça sent bon le chocolat. On peut y personnaliser ses bonbons ou ses contenants. Il y a plein de jolies couleurs. 
