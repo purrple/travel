@@ -80,6 +80,6 @@ clean_all <- function( files ){
   if( missing(files) ){
     files <- list.files( "static/img", full.names = TRUE, recursive = TRUE, pattern = "jpg$")
   }
-  orient_all(files)
   redim_all(files)
+  orient_all(files)
 }
