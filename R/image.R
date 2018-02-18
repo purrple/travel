@@ -1,22 +1,27 @@
-
-#install.package("magick")
-library("magick")
-img1 <- image_read("/Users/romain/git/travel/static/img/nyc-2018/brooklyn-botanical-garden/agrume1.jpg")
-img2 <- image_read("/Users/romain/git/travel/static/img/nyc-2018/brooklyn-botanical-garden/agrume2.jpg")
-img3 <- image_read("/Users/romain/git/travel/static/img/nyc-2018/brooklyn-botanical-garden/agrume3.jpg")
-img4 <- image_read("/Users/romain/git/travel/static/img/nyc-2018/brooklyn-botanical-garden/agrume4.jpg")
-
-imgl1 <- image_append(c(img1, img2), stack = FALSE)
-imgl2 <- image_append(c(img3, img4), stack = FALSE)
-
-img <- image_scale(image_append(c(imgl1,imgl2), stack = TRUE),1920)
-
-image_write(img, path = "/Users/romain/git/travel/static/img/nyc-2018/brooklyn-botanical-garden/agrumes.jpg", format = "jpg")
-
-
-#recuperer le nom du fichier
 library(purrr)
 library(glue)
+library(magick)
+library(assertthat)
+
+#' montage de 4 images
+#' 
+#' @param src Les fichiers à monter
+#' @param dest Le fichier de montage à créer
+montage4 <- function( src, dest ){
+  assert_that( length(src) == 4 )
+  assert_that( all(file.exists(src)) )
+  
+  imgs <- map( src, image_read )
+  
+  imgl1 <- image_append(c(imgs[[1]], imgs[[2]]), stack = FALSE)
+  imgl2 <- image_append(c(imgs[[3]], imgs[[4]]), stack = FALSE)
+  
+  img <- image_scale(image_append(c(imgl1,imgl2), stack = TRUE),1920)
+  
+  image_write(img, path = dest, format = "jpg" )
+}
+
+#recuperer le nom du fichier
 
 redim_all <- function(){
   files <- list.files("static/img", pattern="jpg$", recursive=TRUE, full.names=TRUE)
@@ -25,7 +30,6 @@ redim_all <- function(){
   n_total <- length(vect_modif)
   cat("\n")
   message(glue("J'ai modifié {n_modif} fichiers sur {n_total}"))
-  
 }
 
 redim_img <-function(file, w){
