@@ -8,5 +8,4 @@ tags:
   - city
 
 image: img/nyc-2018/met/header.jpg
-gallery: img/nyc-2018/met
 ---
