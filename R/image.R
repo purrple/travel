@@ -2,6 +2,9 @@ library(purrr)
 library(glue)
 library(magick)
 library(assertthat)
+library(progress)
+library(exiv)
+library(dplyr)
 
 #' montage de 4 images
 #' 
@@ -23,34 +26,51 @@ montage4 <- function( src, dest ){
 
 #fonction pour redimensionner une image
 process_img <- function(file){
-  if (basename(file) == "header.jpg"){
-    redim_img(file, w=1920)
-  } else {
-    redim_img(file, w=800)
-  }
-}
-
-redim_img <-function(file, w){
+  w <- if (basename(file) == "header.jpg") 1920 else 800
   img <- image_read(file)
   width <- image_info(img)$width
   if(width > w){
-    cat( glue("\rredim {file}                                                ") )
     image_scale(img, w) %>%
       image_write(path = file, format = "jpg")
     TRUE
   } else {
-    cat( glue("\r{file} deja redim                                            ") )
     FALSE
   }
 }
 
+
 redim_all <- function(){
   files <- list.files("static/img", pattern="jpg$", recursive=TRUE, full.names=TRUE)
-  vect_modif <- map_lgl(files, process_img)
+  p <- progress_bar$new(total = length(files))
+  vect_modif <- map_lgl(files, ~{
+    on.exit(p$tick())
+    process_img(.x)
+  })
   n_modif <- sum(vect_modif)
   n_total <- length(vect_modif)
   cat("\n")
   message(glue("J'ai modifié {n_modif} fichiers sur {n_total}"))
+}
+
+orient_all <- function( files ){
+  pb <- progress_bar$new(total = length(files))
+  orientations <- map_int( files, ~{
+    or <- read_exif(.x) %>% 
+      filter( exif_key == "Exif.Image.Orientation") %>% 
+      pull(exif_val) %>% 
+      as.integer()
+    pb$tick()
+    if( length(or) ) or else 0L
+  })
+  files <- files[ orientations > 1]
+  
+  pb <- progress_bar$new(total = length(files))
+  walk( files, ~{
+    image_read(.x) %>% 
+      image_orient() %>% 
+      image_write(path = .x)
+    pb$tick()
+  })
 }
 
 
