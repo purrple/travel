@@ -3,8 +3,23 @@ library(glue)
 library(magick)
 library(assertthat)
 library(progress)
+devtools::install_github("hrbrmstr/exiv")
 library(exiv)
 library(dplyr)
+
+src <- c("static/img/nyc-2018/times-square/IMG_0604.jpg", 
+  "static/img/nyc-2018/times-square/IMG_3409.jpg",
+  "static/img/nyc-2018/times-square/IMG_3408.jpg",
+  "static/img/nyc-2018/times-square/IMG_3412.jpg",
+  "static/img/nyc-2018/times-square/IMG_3407.jpg")
+
+imgs <- map( src, image_read )
+
+imgl1 <- image_scale(image_append(c(imgs[[1]], imgs[[2]]), stack = FALSE), 800)
+
+img <- image_append(c(imgl1, imgs[[3]], imgs[[4]], imgs[[5]]), stack=TRUE)
+
+image_write(img, path = "static/img/nyc-2018/times-square/mms.jpg", format = "jpg" )
 
 #' montage de 4 images
 #' 
