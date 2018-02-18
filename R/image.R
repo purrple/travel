@@ -83,7 +83,3 @@ clean_all <- function( files ){
   orient_all(files)
   redim_all(files)
 }
-
-# par exemple
-clean_all(files)
-
