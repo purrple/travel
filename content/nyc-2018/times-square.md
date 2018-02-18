@@ -20,7 +20,7 @@ Il y a plein de statues en LEGO : des minions, Rey et BB-8 de Star Wars, et des 
 - Line Friends
 C'est Nounoursomania! Il y a des peluches par-ci et par-là, si vous êtes un amateur ou un adoreur (comme moi), il est très difficile de ne pas tout acheter. Surtout qu'elles sont adorables ces petites peluches! Elles sont sous plusieurs formes, par exemple en porte-clés, en sacoche, en coque de téléphone et en housse de tablette et ordinateur et plus encore! Dans le magasin il y a des statues du doudou le plus connu sous d'autres styles, comme en rappeur ou en DJ. Il y a des nounours mais aussi des lapins, des chevaux, des canards, des "trucs" non identifiables noirs et blanc, et d'autres encore.
 
-![alix saut](img/nyc-2018/times-square/IMG_3383.jpg)
+![romain gif](img/nyc-2018/times-square/romain.gif)
 
 - Disney
 Quand on rentre, on est direct dans l'ambiance avec la musique de fond tirée des films Disney. Et là encore il y a plein de peluches de toutes les tailles, de tous les dessins animés, qui donnent l'envie de sauter dedans ! Il y a plein de jouets et d'accessoires de Disney allant du plus petit au plus grand.
