@@ -38,9 +38,8 @@ process_img <- function(file){
   }
 }
 
-
-redim_all <- function(){
-  files <- list.files("static/img", pattern="jpg$", recursive=TRUE, full.names=TRUE)
+redim_all <- function(files){
+  message( "redimensioonement")
   p <- progress_bar$new(total = length(files))
   vect_modif <- map_lgl(files, ~{
     on.exit(p$tick())
@@ -53,6 +52,7 @@ redim_all <- function(){
 }
 
 orient_all <- function( files ){
+  message( "reorientation")
   pb <- progress_bar$new(total = length(files))
   orientations <- map_int( files, ~{
     or <- read_exif(.x) %>% 
@@ -71,6 +71,19 @@ orient_all <- function( files ){
       image_write(path = .x)
     pb$tick()
   })
+  
+  message(glue("J'ai réorienté {length(files)} fichiers"))
+  
 }
 
+clean_all <- function( files ){
+  if( missing(files) ){
+    files <- list.files( "static/img", full.names = TRUE, recursive = TRUE, pattern = "jpg$")
+  }
+  orient_all(files)
+  redim_all(files)
+}
+
+# par exemple
+clean_all(files)
 
