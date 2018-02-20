@@ -9,3 +9,11 @@
 .list__title {
   opacity: 0.6 ;
 }
+
+.entry__title a {
+    color: #994AB6;
+}
+
+.section__name a {
+    color: #994AB6;
+}

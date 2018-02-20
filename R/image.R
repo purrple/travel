@@ -15,9 +15,10 @@ src <- c("static/img/nyc-2018/times-square/IMG_0604.jpg",
 
 imgs <- map( src, image_read )
 
-imgl1 <- image_scale(image_append(c(imgs[[1]], imgs[[2]]), stack = FALSE), 800)
-
-img <- image_append(c(imgl1, imgs[[3]], imgs[[4]], imgs[[5]]), stack=TRUE)
+imgl1 <- image_scale(image_append(c(imgs[[1]], imgs[[2]]), stack = FALSE), "800x533")
+imgl1 <- image_scale(image_append(c(imgl1, imgs[[3]]), stack = FALSE), "800x480")
+imgl2 <- image_scale(image_append(c(imgs[[4]], imgs[[5]]), stack = FALSE), 800)
+img <- image_append(c(imgl1,imgl2), stack=TRUE)
 
 image_write(img, path = "static/img/nyc-2018/times-square/mms.jpg", format = "jpg" )
 
