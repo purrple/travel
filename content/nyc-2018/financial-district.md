@@ -12,3 +12,5 @@ gallery: img/nyc-2018/financial-district
 ---
 
 Le financial district, dans le sud de Manhattan, comprend Wall Street et son fameux taureau, le Wall Trade Center, le mémorial des anciennes tours jumelles.
+
+Cécile

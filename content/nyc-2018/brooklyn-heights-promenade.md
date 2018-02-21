@@ -23,4 +23,6 @@ La freedom tower est le building le plus grand et le plus récent de la skyline.
 
 ![freedom tower](img/nyc-2018/brooklyn-botanical-garden/hauteur-tours.jpg)
 
+Alix
+
 

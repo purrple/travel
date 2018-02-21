@@ -12,5 +12,4 @@ gallery: img/nyc-2018/theo
 
 Chez Alex, Liz et Theo, c'est juste à côté de l'Empire State Building et il y a une super vue ! Lexie s'est fait un nouveau copain américain du même âque qu'elle, ils sont "so cute" tous les deux. 
 
-
-
+Cécile

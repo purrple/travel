@@ -11,4 +11,6 @@ image: img/nyc-2018/staten-island-ferry/header.jpg
 gallery: img/nyc-2018/staten-island-ferry
 ---
 
-Le ferry de Staten Island permet d'avoir une belle vue de Manhattan et de la statue de la liberté et de New Jersey. En plus le bateau c'est rigolo :D  
+Le ferry de Staten Island permet d'avoir une belle vue de Manhattan et de la statue de la liberté et de New Jersey. En plus le bateau c'est rigolo :D
+
+Cécile

@@ -34,6 +34,5 @@ Au sous-sol, il y avait trois autres salles de différentes températures et hum
  - desert
  - tropical.
 
-
-
+Alix
 
