@@ -8,6 +8,7 @@
 
 .list__title {
   opacity: 0.6 ;
+  color: #713a86;
 }
 
 .entry__title a {
@@ -15,5 +16,5 @@
 }
 
 .section__name a {
-    color: #994AB6;
+    color: #713a86;
 }
