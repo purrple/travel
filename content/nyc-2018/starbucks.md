@@ -6,7 +6,7 @@ title: Starbucks
 tags:
   - starbucks
   - city
-image: img/nyc-2018/starbucks/starbucks.jpg
+image: img/nyc-2018/starbucks/header.jpg
 gallery: img/nyc-2018/starbucks
 ---
 
