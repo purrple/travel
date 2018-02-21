@@ -8,3 +8,5 @@ tags:
 image: img/nyc-2018/street-art/header.jpg
 gallery: img/nyc-2018/street-art
 ---
+
+La grande majorité des photos de street art viennent de East Village. Très joli quartier de New York avec de beaux graphes sur les murs des bâtiments, des mosaïques sur les lampadaires, des arbres habillés d'écharpe colorées en crochet...
