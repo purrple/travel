@@ -4,10 +4,8 @@ timezone: EST
 location: New York, United States
 title: Starbucks
 tags:
-  - park
-  - trees
-  - flowers
-  - squirrels
+  - starbucks
+  - city
 image: img/nyc-2018/starbucks/starbucks.jpg
 gallery: img/nyc-2018/starbucks
 ---

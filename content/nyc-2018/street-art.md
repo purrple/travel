@@ -5,6 +5,7 @@ location: New York, United States
 title: Street art
 tags:
   - street art
+  - city
 image: img/nyc-2018/street-art/header.jpg
 gallery: img/nyc-2018/street-art
 ---
