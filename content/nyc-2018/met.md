@@ -31,7 +31,7 @@ de faire plusieurs musées en commençant par le Met 5th avenue, c'est un
 peu comme prévoir de faire plusieurs musées dans Paris et commencer par 
 le Louvre. 
 
-Après la visite, on a fait une partie de [Central Park](central-park), 
+Après la visite, on a fait une partie de [Central Park](nyc-2018/central-park), 
 forcément on était déjà dedans. 
 
 Romain
