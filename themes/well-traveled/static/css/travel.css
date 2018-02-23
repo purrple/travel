@@ -1,20 +1,16 @@
-.section__name {
+.section__name, .section__entries, .list__title, .article__title, .article__placement {
   opacity: 0.6 ;
 }
 
-.section__entries {
-  opacity: 0.6 ;
-}
-
-.list__title {
-  opacity: 0.6 ;
+.list__title, .entry__title a, .section__name a, .article__location, h1 {
   color: #713a86;
 }
 
-.entry__title a {
-    color: #994AB6;
+.section__name a {
+  opacity: 1 ;
 }
 
-.section__name a {
-    color: #713a86;
+.article__location {
+  size: smaller ;
+  font-style: italic ;
 }
