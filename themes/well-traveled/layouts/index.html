@@ -10,13 +10,11 @@
                 {{ if eq (len .Data.Pages) 0 }}
                 <div class="section__entry text"><p>{{ with .Params.teaser }}{{ . | safeHTML }}{{ else }}Coming soon...{{ end }}</p></div>
                 {{ end }}
-                {{ range first 3 .Data.Pages }}
+                {{ range first 5 .Data.Pages }}
                 <article class="section__entry entry">
                     <h3 class="entry__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                     
-                    <div class="entry__summary text">
-                        {{ .Summary | plainify | safeHTML }}
-                    </div>
+                    <div class="entry__summary text">{{ .Summary | plainify | safeHTML }}</div>
                 </article>
                 {{ end }}
                 {{ if gt (len .Data.Pages) 3 }}

@@ -14,24 +14,16 @@
             </div>
         </header>
 
-            
         <section class="article__text text">
+            {{ partial "tags.html" . }}
+  
             {{ .Content }}
             
             {{ partial "gallery.html" . }}
             
         </section>
 
-        <footer class="article__footer">
-            {{ with .Params.tags}}
-            <nav class="article__tags">
-                Topics:
-                <ul class="tags">
-                    {{ range sort . }}<li class="tags__tag"><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>{{ end }}
-                </ul>
-            </nav>
-            {{ end }}
-        </footer>
+        
     </article>
 </main>
 

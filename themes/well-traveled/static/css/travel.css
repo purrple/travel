@@ -1,16 +1,46 @@
+.text a {
+  text-decoration: none ;
+  border: none !important ;
+  color: #713a86 ;
+}
+
+.meta-tags{
+  text-align: right ;
+  padding-bottom: 10px ;
+}
+
+.article__text {
+  margin: 1em auto 0;
+}
+
 .section__name, .section__entries, .list__title, .article__title, .article__placement {
   opacity: 0.6 ;
 }
 
-.list__title, .entry__title a, .section__name a, .article__location, h1 {
+.list__title, .entry__title a, .section__name a, .article__location, .header__link, h1, a, .section__link a {
   color: #713a86;
 }
 
-.section__name a {
+.section__name > * {
   opacity: 1 ;
 }
 
-.article__location {
-  size: smaller ;
+.article__placement {
   font-style: italic ;
+}
+
+.post-taxonomy-tag {
+  padding: 5px;
+}
+
+.entry__title {
+  font-size: 1.6em ;
+}
+
+.entry__summary{
+  font-size: 1.1em ;
+}
+
+.section__name {
+  font-size: 2em ;
 }
