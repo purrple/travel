@@ -1,4 +1,8 @@
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 .section__title a { 
   text-decoration: none ;
 }
@@ -10,7 +14,7 @@
 }
 
 .section__entry {
-  height: 410px ;
+  height: 430px ;
   overflow-y: hidden ;
 }
 
@@ -86,8 +90,9 @@
   margin: 1em auto 0;
 }
 
-.section__entry, .section__name, .list__title{
+.section__entry, .section__name, .list__title, .article__title{
   background: #FFFFFFCC ;
+  font-family: 'Indie Flower', cursive;
 }
 
 .section__name, .section__entries, .list__title, .article__title, .article__placement {
@@ -123,5 +128,19 @@
 }
 
 .section__name {
-  font-size: 2em ;
+  font-size: 3em ;
+  font-family: 'Indie Flower', cursive;
+}
+
+.entry__title a {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.6em ;
+}
+
+.article__title {
+  font-size: 4em ;
+}
+
+.section__title {
+  font-family: 'Indie Flower', cursive;
 }
