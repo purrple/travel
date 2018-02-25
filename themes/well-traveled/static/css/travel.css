@@ -14,6 +14,16 @@
   overflow-y: hidden ;
 }
 
+.section__narticles {
+  font-size: 0.8em;
+  color: rgb(177, 110, 255) ;
+}
+
+.section__nphotos{
+  font-size: 0.6em;
+  color: rgb(177, 110, 255) ;
+}
+
 .entry__summary__gallery{
   overflow-y: hidden ;
   padding: 10px ;
