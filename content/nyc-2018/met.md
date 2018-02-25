@@ -3,6 +3,7 @@ date: 2018-02-14
 timezone: EST
 location: New York, United States
 title: Le MET (Metropolitan Museum of Art)
+author: Romain
 tags:
   - museum
   - city
@@ -32,6 +33,4 @@ peu comme prévoir de faire plusieurs musées dans Paris et commencer par
 le Louvre. 
 
 Après la visite, on a fait une partie de [Central Park](nyc-2018/central-park), 
-forcément on était déjà dedans. 
-
-Romain
+forcément on était déjà dedans.

@@ -3,6 +3,7 @@ date: 2018-02-06
 timezone: EST
 location: New York, United States
 title: Brooklyn Botanical Garden
+author: Alix
 tags:
   - park
   - trees
@@ -34,5 +35,4 @@ Au sous-sol, il y avait trois autres salles de différentes températures et hum
  - desert
  - tropical.
 
-Alix
 
