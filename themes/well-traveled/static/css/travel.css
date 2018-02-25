@@ -6,7 +6,7 @@
 }
 
 .section__entry {
-  height: 420px ;
+  height: 440px ;
   overflow-y: hidden ;
 }
 
@@ -15,6 +15,26 @@
   padding: 10px ;
   margin-top: 10px ;
 }
+
+.entry__author{
+  padding-top: 5px ;
+  text-align: right ;
+  font-size: smaller ;
+  color: #713a86;
+}
+
+.entry__title {
+  text-align: right ;
+}
+
+.entry__tags{ 
+  text-align: right ;
+  font-size: smaller ;
+}
+.entry__tags > a {
+  text-decoration: none ;  
+}
+
 
 .read_more {
   text-align: right ;
@@ -71,7 +91,7 @@
 }
 
 .entry__title {
-  font-size: 1.4em ;
+  font-size: 1.2em ;
 }
 
 .entry__summary{

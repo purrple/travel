@@ -12,7 +12,29 @@
                 {{ end }}
                 {{ range first 4 .Data.Pages }}
                 <article class="section__entry entry">
-                    <h3 class="entry__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <h3 class="entry__title">
+                      <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h3>
+                    
+                    {{ if .Params.authors }}
+                    <div class="entry__author">
+                      <i class="fa fa-user"></i>
+                      {{ range $k, $v := .Params.authors }}&nbsp;{{ . }}{{ end }}
+                    </div>
+                    {{ end }}
+                    
+                    {{ if isset .Params "tags" }}
+                    {{ $count := len .Params.tags }}
+                    {{ if gt $count 0}}
+                    <div class="entry__tags">
+                      
+                    {{ range $k, $v := .Params.tags }}
+                    <a href="/tags/{{ . | urlize }}" class="post-taxonomy-tag"><i class="fa fa-tags"></i>&nbsp;{{.}}</a>
+                    {{ end }}
+                    
+                    </div>
+                    {{ end }}
+                    {{ end }}
                     
                     <div class="entry__summary text">
                       {{ slicestr .Summary 0 100  | plainify | safeHTML }} ... 
@@ -21,7 +43,9 @@
                       {{ $gallery := .Params.gallery }}
                       
                       <div class="entry__summary__gallery">
-                        <img src="{{ $gallery }}/header.jpg" width="100%"></img>
+                        <a href="{{ .Permalink }}">
+                          <img src="{{ $gallery }}/header.jpg" width="100%"></img>
+                        </a>
                       </div>
                       {{ end }}
                       
