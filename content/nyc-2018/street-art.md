@@ -3,7 +3,8 @@ date: 2018-02-13
 timezone: EST
 location: New York, United States
 title: Street art
-author: Cécile
+authors: 
+  - Cécile
 tags:
   - street art
   - city

@@ -3,7 +3,9 @@ date: 2018-02-06
 timezone: EST
 location: New York, United States
 title: Grey squirrels
-author: Alix, Cécile
+authors: 
+  - Alix
+  - Cécile
 tags:
   - park
   - squirrels

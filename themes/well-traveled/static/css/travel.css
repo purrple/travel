@@ -7,6 +7,12 @@
 .meta-tags{
   text-align: right ;
   padding-bottom: 10px ;
+  margin-top: 0;
+}
+
+.meta-authors{
+  text-align: right ;
+  margin-bottom: 0;
 }
 
 .article__text {
@@ -30,6 +36,10 @@
 }
 
 .post-taxonomy-tag {
+  padding: 5px;
+}
+
+.post-taxonomy-author {
   padding: 5px;
 }
 

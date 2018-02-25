@@ -3,7 +3,8 @@ date: 2018-02-12
 timezone: EST
 location: New York, United States
 title: Bryant Park et la New York Public Library
-author: Cécile
+authors: 
+  - Cécile
 tags:
   - park
   - library

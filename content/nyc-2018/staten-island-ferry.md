@@ -3,7 +3,8 @@ date: 2018-02-13
 timezone: EST
 location: New York, United States
 title: Le ferry de Staten Island et la statue de la liberté
-author: Cécile
+authors: 
+  - Cécile
 tags:
   - ferry
   - bateau

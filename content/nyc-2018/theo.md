@@ -3,7 +3,8 @@ date: 2018-02-12
 timezone: EST
 location: New York, United States
 title: Chez Alex, Liz et Theo
-author: Cécile
+authors: 
+  - Cécile
 tags:
   - building
   - friends

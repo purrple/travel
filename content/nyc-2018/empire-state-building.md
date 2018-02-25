@@ -3,7 +3,8 @@ date: 2018-02-08
 timezone: EST
 location: New York, United States
 title: Empire State Building
-author: Cécile
+authors: 
+  - Cécile
 tags:
   - building
   - city

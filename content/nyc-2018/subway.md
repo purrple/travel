@@ -3,7 +3,9 @@ date: 2018-02-13
 timezone: EST
 location: New York, United States
 title: Subway
-author: Romain, Cécile
+authors: 
+  - Romain
+  - Cécile
 tags:
   - subway
 image: img/nyc-2018/subway/header.jpg

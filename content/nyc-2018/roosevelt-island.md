@@ -3,7 +3,8 @@ date: 2018-02-06
 timezone: EST
 location: New York, United States
 title: Roosevelt Island
-author: Cécile
+authors: 
+  - Cécile
 tags:
   - island
   - tramway

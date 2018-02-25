@@ -3,7 +3,8 @@ date: 2018-02-14
 timezone: EST
 location: New York, United States
 title: Le MET (Metropolitan Museum of Art)
-author: Romain
+authors: 
+  - Romain
 tags:
   - museum
   - city
