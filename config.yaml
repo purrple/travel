@@ -3,7 +3,7 @@ baseurl: https://travel.purrple.cat
 title: travel.purrple.cat
 theme: well-traveled
 languageCode: "en-us"
-author: "purrple"
+authors: "purrple"
 copyright: ''
 params:
   logo: img/compass-rose.svg

@@ -3,6 +3,8 @@ date: 2018-02-06
 timezone: EST
 location: New York, United States
 title: Times Square
+authors: 
+  - Alix
 tags:
   - buildings
   - city
@@ -39,7 +41,6 @@ Il y a un nombre incalculable de taxis qui passent à la minute. Plein de gens q
 
 ![alix saut](img/nyc-2018/times-square/alix.gif)
 
-Alix
 
 
 

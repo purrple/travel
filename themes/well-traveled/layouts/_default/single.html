@@ -15,6 +15,8 @@
         </header>
 
         <section class="article__text text">
+            {{ partial "authors.html" . }}
+            
             {{ partial "tags.html" . }}
   
             {{ .Content }}

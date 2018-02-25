@@ -3,6 +3,8 @@ date: 2018-02-06
 timezone: EST
 location: New York, United States
 title: Brooklyn Heights Promenade
+authors: 
+  - Alix
 tags:
   - promenade
   - skyline
@@ -23,6 +25,5 @@ La freedom tower est le building le plus grand et le plus récent de la skyline.
 
 ![freedom tower](img/nyc-2018/brooklyn-botanical-garden/hauteur-tours.jpg)
 
-Alix
 
 
