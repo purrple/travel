@@ -10,11 +10,26 @@
                 {{ if eq (len .Data.Pages) 0 }}
                 <div class="section__entry text"><p>{{ with .Params.teaser }}{{ . | safeHTML }}{{ else }}Coming soon...{{ end }}</p></div>
                 {{ end }}
-                {{ range first 5 .Data.Pages }}
+                {{ range first 4 .Data.Pages }}
                 <article class="section__entry entry">
                     <h3 class="entry__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                     
-                    <div class="entry__summary text">{{ .Summary | plainify | safeHTML }}</div>
+                    <div class="entry__summary text">
+                      {{ slicestr .Summary 0 100  | plainify | safeHTML }} ... 
+                      
+                      {{ if .Params.gallery }}
+                      {{ $gallery := .Params.gallery }}
+                      
+                      <div class="entry__summary__gallery">
+                        <img src="{{ $gallery }}/header.jpg" width="100%"></img>
+                      </div>
+                      {{ end }}
+                      
+                      <p class="read_more">
+                        <a href="{{ .Permalink }}">Read more...</a>
+                      </p>
+                      
+                    </div>
                 </article>
                 {{ end }}
                 {{ if gt (len .Data.Pages) 3 }}
