@@ -14,7 +14,7 @@
 }
 
 .section__name, .section__entries, .list__title, .article__title, .article__placement {
-  opacity: 0.6 ;
+  opacity: 0.8 ;
 }
 
 .list__title, .entry__title a, .section__name a, .article__location, .header__link, h1, a, .section__link a {
