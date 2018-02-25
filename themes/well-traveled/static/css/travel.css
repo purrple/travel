@@ -1,4 +1,8 @@
 
+.section__title a { 
+  text-decoration: none ;
+}
+
 .section__entry:first-child {
   flex: 0 1 calc(50% - 2rem) ;  
   font-size: .8rem ;
@@ -6,7 +10,7 @@
 }
 
 .section__entry {
-  height: 440px ;
+  height: 410px ;
   overflow-y: hidden ;
 }
 
@@ -25,6 +29,16 @@
 
 .entry__title {
   text-align: right ;
+}
+
+.list__entry{
+  margin-top: 20px ;
+}
+
+.section_mini_image{
+  float: left ;
+  margin-right: 10px ;
+  height: 140px ;
 }
 
 .entry__tags{ 
@@ -62,7 +76,7 @@
   margin: 1em auto 0;
 }
 
-.section__entry, .section__name {
+.section__entry, .section__name, .list__title{
   background: #FFFFFFCC ;
 }
 
@@ -95,7 +109,7 @@
 }
 
 .entry__summary{
-  font-size: 1em ;
+  font-size: 0.8em ;
 }
 
 .section__name {
