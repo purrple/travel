@@ -55,7 +55,10 @@ process_img <- function(file){
 }
 
 redim_all <- function(files){
-  message( "redimensioonement")
+  if( missing(files) ){
+    files <- list.files( "static/img", full.names = TRUE, recursive = TRUE, pattern = "(JPG|jpg)$")
+  }
+  message( "redimensionnement")
   p <- progress_bar$new(total = length(files))
   vect_modif <- map_lgl(files, ~{
     on.exit(p$tick())
