@@ -3,7 +3,7 @@ library(glue)
 library(magick)
 library(assertthat)
 library(progress)
-devtools::install_github("hrbrmstr/exiv")
+# devtools::install_github("hrbrmstr/exiv")
 library(exiv)
 library(dplyr)
 
