@@ -43,6 +43,7 @@
                       
                       {{ if .Params.gallery }}
                       {{ $gallery := .Params.gallery }}
+                      {{ $header := (printf "%s/header.jpg"  $gallery ) }}
                       
                       <div class="entry__summary__gallery">
                         <a href="{{ .Permalink }}">
@@ -50,6 +51,7 @@
                         </a>
                       </div>
                       {{ end }}
+
                     
                     </div>
                 </article>

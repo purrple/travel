@@ -5,7 +5,7 @@
 </div>
 {{ end }}
 
-{{ if isset .Params "tags" }}
+{{ if .Params.tags }}
 {{ $count := len .Params.tags }}
 {{ if gt $count 0}}
 <div class="entry__tags">
@@ -19,7 +19,7 @@
 {{ end }}
 
 <div class="entry__summary text">
-    {{ slicestr .Summary 0 150  | plainify | safeHTML }}
+  {{ slicestr .Summary 0 150  | plainify | safeHTML }}
     <a class="read_more" href="{{ .Permalink }}">&nbsp;&nbsp;(... Read more ...)</a>
 </div>
             
