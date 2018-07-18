@@ -1,0 +1,19 @@
+---
+author : Alix
+date : 2018-07-14
+title : Escale à Paris
+tags :  
+  -  paris
+gallery : img/australie_2018/2018-07-14-escale---paris
+---
+
+  En arrivant à l'aéroport, on a fait la queue pendant loooooooooongtemps pour enregistrer nos bagages. On arrive à la fin ( àpres beaucoup d'heure d'atente... ) et apparament, le vol était plein ( on a attendu tout ce temps pour rien?) , sur ce, les hôtesse nous propose un deal : si on accepte de prendre l'avion du soir ( de l'atente? Encore?) on a un deuxième vol gratuit ( chacun ) pour l'Australie ou la Nouvelle Zélande. On a réfléchit longtemps ( genre... 1 seconde ) , et l'on à dit que l'on était d'accord. Alors on a reprit le Métro pour aller à Paris ( encore...). On a manger une pizza, puis une glace et l'on c'est dirigé vers Notre Dame. on est ensuite passés par les quais de la Seine. On a traversés le pont des arts, ils ont remplacés les cadenas par des... vitres?! Il restait quelques oubliés sur les lampadaires. Seuls. Enface, il y avait le louvre, et ( bien-sûr) on y est allés. Autour du Louvre, il y a une fontaine. Il y a une plaque qui signale que c'est interdit de tremper nos pieds. Et, bien-sur, on l'a désobéi!
+
+```{r echo = FALSE}
+library(leaflet)
+m <- leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=2.337644, lat=48.86061, popup='Paris')
+m
+```
+      
