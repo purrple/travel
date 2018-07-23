@@ -27,7 +27,8 @@ entre Bondi et Coogee le matin, c'est très joli. Et ensuite plage l'après midi
 library(leaflet)
 m <- leaflet() %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles
-  addMarkers(lng=151.2766845, lat=-33.8914755, popup='Bondi Beach')
+  addMarkers(lng=151.2766845, lat=-33.8914755, popup='Bondi Beach') %>% 
+  setView(lng=151.2366845, lat=-33.8714755, zoom = 13)
 m
 ```
       
