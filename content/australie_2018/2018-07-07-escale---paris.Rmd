@@ -7,7 +7,17 @@ tags :
 gallery : img/australie_2018/2018-07-14-escale---paris
 ---
 
-  En arrivant à l'aéroport, on a fait la queue pendant loooooooooongtemps pour enregistrer nos bagages. On arrive à la fin ( àpres beaucoup d'heure d'atente... ) et apparament, le vol était plein ( on a attendu tout ce temps pour rien?) , sur ce, les hôtesse nous propose un deal : si on accepte de prendre l'avion du soir ( de l'atente? Encore?) on a un deuxième vol gratuit ( chacun ) pour l'Australie ou la Nouvelle Zélande. On a réfléchit longtemps ( genre... 1 seconde ) , et l'on à dit que l'on était d'accord. Alors on a reprit le Métro pour aller à Paris ( encore...). On a manger une pizza, puis une glace et l'on c'est dirigé vers Notre Dame. on est ensuite passés par les quais de la Seine. On a traversés le pont des arts, ils ont remplacés les cadenas par des... vitres?! Il restait quelques oubliés sur les lampadaires. Seuls. Enface, il y avait le louvre, et ( bien-sûr) on y est allés. Autour du Louvre, il y a une fontaine. Il y a une plaque qui signale que c'est interdit de tremper nos pieds. Et, bien-sur, on l'a désobéi!
+  En arrivant à l'aéroport, on a fait la queue pendant loooooooooongtemps pour enregistrer nos bagages. On arrive à la fin ( àpres beaucoup d'heure d'atente... ) et apparament, le vol était plein ( on a attendu tout ce temps pour rien?) , sur ce, les hôtesse nous propose un deal : si on accepte de prendre l'avion du soir ( de l'atente? Encore?) on a un deuxième vol gratuit ( chacun ) pour l'Australie ou la Nouvelle Zélande. On a réfléchit longtemps ( genre... 1 seconde ) , et l'on à dit que l'on était d'accord. Alors on a reprit le Métro pour aller à Paris ( encore...). 
+  
+  On a manger une pizza, puis une glace et l'on c'est dirigé vers Notre Dame. on est ensuite passés par les quais de la Seine. On a traversés le pont des arts, ils ont remplacés les cadenas par des... vitres?! Il restait quelques oubliés sur les lampadaires. Seuls. Enface, il y avait le louvre, et ( bien-sûr) on y est allés. Autour du Louvre, il y a une fontaine. Il y a une plaque qui signale que c'est interdit de tremper nos pieds. Et, bien-sur, on l'a désobéi!On est ensuite aller au jardin des tuileries. On c'est posés au près d'une fontaine et... On a rien fait... 
+  
+  Aprés, on est allé à l'aéroport. On a passé la doine et, déjà les problèmes arrivent. Je mettait mes affaires dans les cases. je mis mon collier et mes bracelets dans une case. la personne les a déplacés dans une autre case. je dit "Eh madame! Il manque un bracelet et mon collier!" elle me répond  "Mais non jeune fille, je l'ai laissé ton bracelet dans l'autre case.". Je trouve mon collier par terre et le met avec mon bracelet... visible. Je passe la porte et... sa bipe rouge. On me demande de repasser et là, sa bipe vert. Je reprend mon sac. Je remet mon collier, un de mes bracelet. Bon... je ne retrouve pas mon deuxième bracelet. Je l'anonce et l'on me dit de chercher dans mes affaires ( Eh oh! C'est votre personnel qui a perdu mon bracelet!). 
+  
+  On va voir la dame de la doine qui a pommée mon bracelet. Elle dit " Non, non. Je n'ai pas perdue son collier. Je l'aie mis dans la case." (Ben non, justement.) . En gros, toutes les personnes du personnel font leur possible pour me mettre l'idée dans la tête que c'est moi qui a perdu mon bracelet. Finalement une personne le retrouve ( comme par hasard, au pied de la personne qui, ben, m'avait déplacé mes bijoux) et on y va.
+  
+  ( Ca n'a aucun rapport mais, après, on prend un Mc'Donald et, on a eu le numéro un! )
+  
+  
 
 ```{r echo = FALSE}
 library(leaflet)
