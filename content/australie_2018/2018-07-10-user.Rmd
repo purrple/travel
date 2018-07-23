@@ -8,7 +8,7 @@ tags :
 gallery : img/australie_2018/2018-07-18-user
 ---
 
-
+Bla bla
 
 ```{r echo = FALSE}
 library(leaflet)
